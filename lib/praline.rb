@@ -22,21 +22,6 @@
 require 'selenium-webdriver'
 
 module Praline
-    def self.browser
-        if @browser.nil?
-            @browser = Selenium::WebDriver.for(:firefox)
-        end
-        
-        @browser
-    end
-    
-    def self.kill_browser
-        if not @browser.nil?
-            @browser.quit
-            @browser = nil
-        end
-    end
-    
     def open(url)
         Praline::browser.get(url)
     end
@@ -67,7 +52,28 @@ module Praline
         Praline::browser.find_element(:name, form_name).submit
     end
     
+    def browser
+        Praline::browser
+    end
+    
     def kill_browser
         Praline::kill_browser
+    end
+    
+    private
+    
+    def self.browser
+        if @browser.nil?
+            @browser = Selenium::WebDriver.for(:firefox)
+        end
+        
+        @browser
+    end
+    
+    def self.kill_browser
+        if not @browser.nil?
+            @browser.quit
+            @browser = nil
+        end
     end
 end
