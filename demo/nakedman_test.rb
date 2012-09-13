@@ -1,5 +1,5 @@
-require 'webmate'
-include WebMate
+require 'praline'
+include Praline
 
 home = 'http://nakedman.aspyct.org'
 
