@@ -35,6 +35,18 @@ describe "naked_man" do
             oses.should include "darwin"
             oses.should include "linux"
         end
+        
+        it "has a link to linux man" do
+            open home
+            follow "Linux"
+            title.should match /linux man pages/
+        end
+        
+        it "has a link to darwin man" do
+            open home
+            follow "Darwin"
+            title.should match /darwin man pages/
+        end
     end
      
     after(:all) do
