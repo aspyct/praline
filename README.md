@@ -70,7 +70,7 @@ Contact
 
 The name's Antoine d'Otreppe
 - a.dotreppe@aspyct.org
-- @aspyct on twitter
+- [@aspyct](https://twitter.com/aspyct) on twitter
 - http://aspyct.org
 
 
