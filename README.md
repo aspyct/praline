@@ -8,7 +8,7 @@ If you ever developed a web application, or any website actually, you know how t
 
 Automated testing is here to help. Along with the unit tests, you can set up functional testing. The goal is to replace your actions on a webpage or form by a script. Faster, better, less boring, you will definitely love it!
 
-Since you're here, you probably heard about selenium before, and more specifically of `selenium-webdriver`. Praliné does not attempt to replace it. Praliné is an attempt to bring the selenium-webdriver API to the human-friendliness of `rspec`.
+Since you're here, you probably heard about selenium before, and more specifically of `selenium-webdriver`. Praliné does not attempt to replace it. Praliné is an attempt to bring the selenium-webdriver API to the human-friendliness of `rspec`. And you still have access to the webdriver itself, just in case...
 
 So, using Praliné, you can express test cases in a near-english language. Fill forms, submit them, check the title and contents of pages. Automate your tests now, you'll love it!
 
