@@ -15,7 +15,7 @@ So, using Praliné, you can express test cases in a near-english language. Fill 
 Documentation
 -------------
 
-Coming very soon, will be located at http://aspyct.org/praline/doc
+See here for now: http://rubydoc.info/gems/praline/frames
 
 Quick start
 -----------
