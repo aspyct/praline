@@ -1,9 +1,11 @@
 Gem::Specification.new do |s|
     s.name = 'praline'
-    s.version = '0.1.3'
-    s.date = '2012-09-14'
+    s.version = '0.1.4'
+    s.date = '2012-09-15'
     s.summary = 'Web functional testing tools for rspec'
-    s.description = 'Praliné is a functional web testing tool built to work with rspec. It uses selenium-webdriver to command a browser and execute your test scenarios written in a human friendly language.'
+    s.description = 'Praliné is a functional web testing tool built to work with rspec. ' \
+                    'It uses selenium-webdriver to command a browser and execute your ' \
+                    'test scenarios written in a human friendly language.'
     s.authors = ["Antoine d'Otreppe"]
     s.email = 'a.dotreppe@aspyct.org'
     s.files = ['lib/praline.rb']
